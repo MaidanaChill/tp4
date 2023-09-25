@@ -1,0 +1,74 @@
+/* inicio */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    text-transform: unset;
+    color:#ffffff;
+}
+
+p {
+
+    text-align: center;
+    color: #ffffff;
+}
+
+/*fondo inicio*/
+#inicio  { 
+    background-image:url(assets/img/isla_oceanicajpg.jpg);
+    background-repeat: no-repeat; /* evita que se repita la imagen  */
+    background-size: cover;/*ajusta a la img a la pantalla*/
+}
+
+#opciones {
+    text-align: center;
+    list-style: none; /* elimina los puntitos (viñeta) */
+}
+
+.boton {
+    text-decoration: none; /* Eliminamos el subrayado del enlace */
+    color: #ffffff;
+    border: 2px solid rgb(17, 17, 16);
+    padding: 5px; 
+    border-radius: 5px;
+    display: inline-block;
+}
+.boton:hover { 
+    background-color: rgb(54, 106, 155);
+    color: #ffffff; 
+}
+
+/*camino1*/
+#cma1  { 
+    background-image:url(assets/img/selva_grande.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+/*final bueno*/
+
+#final1{
+    background-image:url(assets/img/cofre_selva2.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+/* camnino2 */
+#cma2{
+    background-image:url(assets/img/playa.webp);
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+/*final malo*/
+#final_malo{
+    background-image:url(assets/img/muert.webp);
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+
+
